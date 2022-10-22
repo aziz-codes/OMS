@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(images/bg1.jpeg);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.data-box {
+	height: 500px;
+	width: 300px;
+	position: relative;
+	margin: 9% 43%;
+	background: #fff;
+	padding: 2px;
+	border-radius: 10px;
+	overflow: hidden;
+	font-family: 'Poppins', cursive;
+	font-weight: bold;
+}
+
+.input-group {
+	top: 10px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	opacity: 1;
+	font-weight: bold;
+}
+.gender
+{
+	margin-left: -20px;
+}
+
+.data-box input[type="text"],
+input[type="password"] {
+	height: 25px;
+	width: 250px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid black;
+	margin-left: -20px;
+	outline: none;
+	opacity: 1;
+	font-size: 15px;
+	font-weight: bold;
+}
+#Register input[type="text"]
+{
+	margin-top: -600px;
+	font-weight: bold;
+}
+
+.data-box img {
+	height: 50px;
+	width: auto;
+	margin: 0 70px;
+}
+
+
+.data-box a {
+	display: inline-block;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+	padding: 10px 50px;
+	color: #fff;
+	margin: 23px 0;
+	border-radius: 30px;
+	text-decoration: none;
+	position: relative;
+	margin-left: 30px;
+	transition: background 1s;
+}
+
+.data-box select {
+	border-radius: 20px;
+	border: 2px solid black;
+}
+
+.data-box a:hover {
+	background: #444;
+}
+
+span {
+	color: #ff523b;
+}
+
+.button-box {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toogle-btn {
+	height: 30px;
+	width: 100px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 50px;
+	margin: 30px -5px;
+	outline: none;
+	cursor: pointer;
+}
+.submit-btn
+{
+	height: 30px;
+	width: 100px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 50px;
+	margin: 30px 12px;
+	outline: none;
+	cursor: pointer;
+}
+
+
+#btn {
+	position: absolute;
+	margin-bottom: -20px;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+	border-radius: 30px;
+	transition: 0.5s;	
+}
+.next_button
+{
+	height: 40px;
+	width: 150px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 50px;
+	margin: 40px 30px;
+	outline: none;
+	cursor: pointer;
+}
+
+#Login {
+	left: 50px;
+}
+
+#Register {
+	left: 450px;
+}
+
+.paymentDetails
+{
+	background: transparent;
+	height: 70px;
+	width: 230px;
+	display: none;
+}
+.paymentDetails input[type="text"]
+{
+	width: 200px;
+	margin-left: 10px;
+}

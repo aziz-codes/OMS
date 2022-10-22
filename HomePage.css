@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(images/bg1.JPEG);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.logo {
+	width: 90px;
+	position: absolute;
+	top: 4%;
+	left: 10%;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	background: transparent;
+	cursor: pointer;
+}
+
+.banner-text {
+	text-align: center;
+	color: #ffff;
+	padding-top: 180px;
+}
+.banner-text h1 {
+	font-size: 130px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.banner-text p {
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'poppins';
+}
+
+.banner-btn {
+	margin: 70px auto 0;
+}
+
+.banner-btn a {
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 0;
+	color: #fff;
+	border: 0.5px solid #fff;
+	position: relative;
+	z-index: 1;
+	transition: color 0.5s;
+	font-family: poppins;
+	font-weight: bold;
+}
+
+.banner-btn a span {
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: -1;
+	transition: 1s;
+}
+
+.banner-btn a:hover span {
+	width: 100%;
+}
+
+.banner-btn a:hover {
+	color: #000;
+}
+
+.sideNav {
+	width: auto;
+	height: 10vh;
+	position: absolute;
+	top: 4%;
+	left: 70%;
+	background: transparent;
+}
+
+nav ul li {
+	list-style: none;
+	margin-right: 0;
+	display: inline-flex;
+	transition: border-bottom 0.5s;
+	margin-left: 5px;
+	transition: 1s;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li:hover {
+	color: orange;
+}
+
+
+}
+#footer {
+	padding: 100px 0 20px;
+	background: lightgray;
+}
+.square {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	perspective: 200px;
+}
+.square div {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background: coral;
+	animation: ol 2s linear infinite;
+	transform-origin: right bottom;
+	text-align: center;
+}
+.square div:nth-child(2) {
+	animation-delay: 1s;
+	opacity: 0.5;
+}
+@keyframes ol {
+	0% {
+		transform: rotateX(0) rotateY(0);
+	}
+	
+	25% {
+		transform: rotateX(0) rotateY(180deg);
+	}
+	
+	50% {
+		transform: rotateX(180deg) rotateY(180deg);
+	}
+	
+	75% {
+		transform: rotateX(180deg) rotateY(0);
+	}
+	
+	100% {
+		transform: rotateX(0) rotateY(0);
+	}
+}
+
+/*--------------Registration CSS Code Starts Here---------------------*/

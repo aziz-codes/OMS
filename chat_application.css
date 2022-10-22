@@ -1,0 +1,13 @@
+.message-panel
+{
+	height: 500px;
+	width: 350px;
+	background-color:  #e6e6e6;
+	position: absolute;
+	top: 12%;
+	left: 40%;
+	overflow-y: scroll;
+}
+.top-panel{
+
+}
